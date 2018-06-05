@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Brandon Valentine <brandon@brandonvalentine.com>",
   "license": "MIT",
-  "keywords": "security, security-theatre, security-theater",
+  "keywords": "hubot, hubot-scripts, security, security-theatre, security-theater",
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-security-posters.git"
@@ -14,10 +14,9 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "hubot": "2.x"
+    "hubot": ">=2 <10 || 0.0.0-development"
   },
   "devDependencies": {
-    "hubot-test-helper": "^1.3.0",
     "chai": "^2.1.1",
     "coffee-script": "1.6.3",
     "grunt": "^0.4.5",
@@ -26,6 +25,8 @@
     "grunt-mocha-test": "~0.12.7",
     "grunt-release": "~0.11.0",
     "hubot": "2.x",
+    "hubot-test-helper": "^1.3.0",
+    "husky": "^0.14.3",
     "matchdep": "~0.3.0",
     "mocha": "^2.1.0",
     "sinon": "^1.13.0",
@@ -33,6 +34,8 @@
   },
   "main": "index.coffee",
   "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
     "test": "grunt test"
   }
 }
