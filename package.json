@@ -1,7 +1,7 @@
 {
   "name": "hubot-security-posters",
   "description": "Return a random NSA security posters from the 1950s-60s",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Brandon Valentine <brandon@brandonvalentine.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, security, security-theatre, security-theater",
