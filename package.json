@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, security, security-theatre, security-theater",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-security-posters.git"
+    "url": "git://github.com/bval/hubot-security-posters.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-security-posters/issues"
+    "url": "https://github.com/bval/hubot-security-posters/issues"
   },
   "dependencies": {},
   "peerDependencies": {
